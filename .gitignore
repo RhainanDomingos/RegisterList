@@ -1,0 +1,37 @@
+# Xcode
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+Package.resolved
+Packages/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Xcode workspace
+*.xcworkspace
+
+# Archive files
+*.xcarchive
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# IDEs
+.idea/
+*.sw?
+
+# Bundler
+.bundle/

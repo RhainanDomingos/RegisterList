@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RegisterList
+//  Swift_DesafioTabBarCurso
 //
-//  Created by Rhainan Domingos on 10/04/25.
+//  Created by Rhainan Domingos on 08/02/25.
 //
 
 import UIKit
