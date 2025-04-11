@@ -31,6 +31,25 @@ Implementing photo input and dynamically updating the TableView with new users w
 
 ---
 
+## 🧪 How to Run
+
+To run this project on your local machine:
+
+**Clone the repository**
+```bash
+git clone https://github.com/RhainanDomingos/RegisterList.git
+cd RegisterList
+```
+Open the .xcodeproj file
+```bash
+open RegisterList.xcodeproj
+```
+Build and run the app
+Select a simulator (e.g., iPhone 14)
+Press Cmd + R in Xcode
+
+---
+
 ## 🎥 Preview
 
 <div align="center">
