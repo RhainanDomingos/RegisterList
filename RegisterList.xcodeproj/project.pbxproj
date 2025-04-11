@@ -6,30 +6,41 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AF04B4C02DA8976B00D41BFB /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF04B4AE2DA8976B00D41BFB /* CustomTableViewCell.xib */; };
+		AF04B4C12DA8976B00D41BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF04B4B32DA8976B00D41BFB /* Assets.xcassets */; };
+		AF04B4C32DA8976B00D41BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF04B4B62DA8976B00D41BFB /* LaunchScreen.storyboard */; };
+		AF04B4C42DA8976B00D41BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF04B4B82DA8976B00D41BFB /* Main.storyboard */; };
+		AF04B4C52DA8976B00D41BFB /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4AB2DA8976B00D41BFB /* AlertController.swift */; };
+		AF04B4C62DA8976B00D41BFB /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4AD2DA8976B00D41BFB /* CustomTableViewCell.swift */; };
+		AF04B4C72DA8976B00D41BFB /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4B02DA8976B00D41BFB /* Profile.swift */; };
+		AF04B4C82DA8976B00D41BFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4B22DA8976B00D41BFB /* AppDelegate.swift */; };
+		AF04B4C92DA8976B00D41BFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4B92DA8976B00D41BFB /* SceneDelegate.swift */; };
+		AF04B4CA2DA8976B00D41BFB /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4BA2DA8976B00D41BFB /* TabBarController.swift */; };
+		AF04B4CB2DA8976B00D41BFB /* Tela01VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4BB2DA8976B00D41BFB /* Tela01VC.swift */; };
+		AF04B4CC2DA8976B00D41BFB /* Tela02VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4BC2DA8976B00D41BFB /* Tela02VC.swift */; };
+		AF04B4CD2DA8976B00D41BFB /* Tela03VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4BD2DA8976B00D41BFB /* Tela03VC.swift */; };
+		AF04B4CE2DA8976B00D41BFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF04B4BE2DA8976B00D41BFB /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		AF04B4AB2DA8976B00D41BFB /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		AF04B4AD2DA8976B00D41BFB /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		AF04B4AE2DA8976B00D41BFB /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		AF04B4B02DA8976B00D41BFB /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		AF04B4B22DA8976B00D41BFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF04B4B32DA8976B00D41BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF04B4B42DA8976B00D41BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF04B4B52DA8976B00D41BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF04B4B72DA8976B00D41BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF04B4B92DA8976B00D41BFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AF04B4BA2DA8976B00D41BFB /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		AF04B4BB2DA8976B00D41BFB /* Tela01VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela01VC.swift; sourceTree = "<group>"; };
+		AF04B4BC2DA8976B00D41BFB /* Tela02VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela02VC.swift; sourceTree = "<group>"; };
+		AF04B4BD2DA8976B00D41BFB /* Tela03VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tela03VC.swift; sourceTree = "<group>"; };
+		AF04B4BE2DA8976B00D41BFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF5281112DA863B2003423A3 /* RegisterList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegisterList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AF5281232DA863B3003423A3 /* Exceptions for "RegisterList" folder in "RegisterList" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = AF5281102DA863B2003423A3 /* RegisterList */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AF5281132DA863B2003423A3 /* RegisterList */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				AF5281232DA863B3003423A3 /* Exceptions for "RegisterList" folder in "RegisterList" target */,
-			);
-			path = RegisterList;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AF52810E2DA863B2003423A3 /* Frameworks */ = {
@@ -42,10 +53,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF04B4AC2DA8976B00D41BFB /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				AF04B4AB2DA8976B00D41BFB /* AlertController.swift */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		AF04B4AF2DA8976B00D41BFB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AF04B4AD2DA8976B00D41BFB /* CustomTableViewCell.swift */,
+				AF04B4AE2DA8976B00D41BFB /* CustomTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AF04B4B12DA8976B00D41BFB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF04B4B02DA8976B00D41BFB /* Profile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF04B4BF2DA8976B00D41BFB /* RegisterList */ = {
+			isa = PBXGroup;
+			children = (
+				AF04B4AC2DA8976B00D41BFB /* AlertController */,
+				AF04B4AF2DA8976B00D41BFB /* Cell */,
+				AF04B4B12DA8976B00D41BFB /* Model */,
+				AF04B4B22DA8976B00D41BFB /* AppDelegate.swift */,
+				AF04B4B32DA8976B00D41BFB /* Assets.xcassets */,
+				AF04B4B42DA8976B00D41BFB /* Info.plist */,
+				AF04B4B62DA8976B00D41BFB /* LaunchScreen.storyboard */,
+				AF04B4B82DA8976B00D41BFB /* Main.storyboard */,
+				AF04B4B92DA8976B00D41BFB /* SceneDelegate.swift */,
+				AF04B4BA2DA8976B00D41BFB /* TabBarController.swift */,
+				AF04B4BB2DA8976B00D41BFB /* Tela01VC.swift */,
+				AF04B4BC2DA8976B00D41BFB /* Tela02VC.swift */,
+				AF04B4BD2DA8976B00D41BFB /* Tela03VC.swift */,
+				AF04B4BE2DA8976B00D41BFB /* ViewController.swift */,
+			);
+			path = RegisterList;
+			sourceTree = "<group>";
+		};
 		AF5281082DA863B2003423A3 = {
 			isa = PBXGroup;
 			children = (
-				AF5281132DA863B2003423A3 /* RegisterList */,
+				AF04B4BF2DA8976B00D41BFB /* RegisterList */,
 				AF5281122DA863B2003423A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,9 +129,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AF5281132DA863B2003423A3 /* RegisterList */,
 			);
 			name = RegisterList;
 			packageProductDependencies = (
@@ -122,6 +176,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF04B4C02DA8976B00D41BFB /* CustomTableViewCell.xib in Resources */,
+				AF04B4C12DA8976B00D41BFB /* Assets.xcassets in Resources */,
+				AF04B4C32DA8976B00D41BFB /* LaunchScreen.storyboard in Resources */,
+				AF04B4C42DA8976B00D41BFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +190,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF04B4C52DA8976B00D41BFB /* AlertController.swift in Sources */,
+				AF04B4C62DA8976B00D41BFB /* CustomTableViewCell.swift in Sources */,
+				AF04B4C72DA8976B00D41BFB /* Profile.swift in Sources */,
+				AF04B4C82DA8976B00D41BFB /* AppDelegate.swift in Sources */,
+				AF04B4C92DA8976B00D41BFB /* SceneDelegate.swift in Sources */,
+				AF04B4CA2DA8976B00D41BFB /* TabBarController.swift in Sources */,
+				AF04B4CB2DA8976B00D41BFB /* Tela01VC.swift in Sources */,
+				AF04B4CC2DA8976B00D41BFB /* Tela02VC.swift in Sources */,
+				AF04B4CD2DA8976B00D41BFB /* Tela03VC.swift in Sources */,
+				AF04B4CE2DA8976B00D41BFB /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF04B4B62DA8976B00D41BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF04B4B52DA8976B00D41BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AF04B4B82DA8976B00D41BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF04B4B72DA8976B00D41BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AF5281252DA863B3003423A3 /* Debug */ = {
