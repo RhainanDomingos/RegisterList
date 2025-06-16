@@ -1,20 +1,20 @@
-# 📱 Register List
+# Register List
 
 **Register List** is an iOS app created while studying UIKit, designed to apply media input and dynamic table updates.  
 Its main feature is a registration screen where the user can type a name and choose a profile picture — either by **taking a photo with the camera** or selecting one from the **photo library**. The registered user is then displayed in a list below.
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📝 Add new users with name and profile image  
-- 📸 Select image from camera or photo library  
-- 📃 Display registered users in a `UITableView`  
-- 🧭 TabBar navigation for multiple views  
+- Add new users with name and profile image  
+- Select image from camera or photo library  
+- Display registered users in a `UITableView`  
+- TabBar navigation for multiple views  
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Storyboard**  
 - **UIKit**  
@@ -24,14 +24,14 @@ Its main feature is a registration screen where the user can type a name and cho
 
 ---
 
-## 💡 What I Learned
+## What I Learned
 
 This app helped me explore media selection and permissions in iOS.  
 Implementing photo input and dynamically updating the TableView with new users was a new and valuable experience for me.
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 To run this project on your local machine:
 
@@ -50,7 +50,7 @@ Press Cmd + R in Xcode
 
 ---
 
-## 🎥 Preview
+## Preview
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e90da072-af2e-40ad-ba7e-86a323467a5c" width="250" />
