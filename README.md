@@ -1,57 +1,40 @@
 # Register List
 
-**Register List** is an iOS app created while studying UIKit, designed to apply media input and dynamic table updates.  
-Its main feature is a registration screen where the user can type a name and choose a profile picture — either by **taking a photo with the camera** or selecting one from the **photo library**. The registered user is then displayed in a list below.
+An iOS app created while studying **UIKit** and **Storyboard**, designed to apply media input and dynamic table updates. Its main feature is a registration screen where the user can type a name and choose a profile picture — either by **taking a photo with the camera** or selecting one from the **photo library**. The registered user is then displayed in a list below.
 
 ---
 
-## Features
+### Features
 
-- Add new users with name and profile image  
-- Select image from camera or photo library  
-- Display registered users in a `UITableView`  
-- TabBar navigation for multiple views  
-
----
-
-## Technologies Used
-
-- **Storyboard**  
-- **UIKit**  
-- **UITableView**  
-- **UIImagePickerController**  
-- **TabBarController**
+* **User Registration:** Allows adding new users with a name and a profile image.
+* **Media Input:** Select an image from the camera or the photo library using **`UIImagePickerController`**.
+* **Dynamic List:** Displays registered users in a **`UITableView`** that updates dynamically.
+* **Navigation:** Features TabBar navigation for multiple views, managed by a **`TabBarController`**.
 
 ---
 
-## What I Learned
+### How to Run
 
-This app helped me explore media selection and permissions in iOS.  
-Implementing photo input and dynamically updating the TableView with new users was a new and valuable experience for me.
+This project requires **Xcode 14.0** or later and **iOS 15.0** or later.
 
----
-
-## How to Run
-
-To run this project on your local machine:
-
-**Clone the repository**
-```bash
-git clone https://github.com/RhainanDomingos/RegisterList.git
-cd RegisterList
-```
-Open the .xcodeproj file
-```bash
-open RegisterList.xcodeproj
-```
-Build and run the app
-Select a simulator (e.g., iPhone 14)
-Press Cmd + R in Xcode
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/RhainanDomingos/RegisterList.git](https://github.com/RhainanDomingos/RegisterList.git)
+    cd RegisterList
+    ```
+2.  **Open the Xcode project:**
+    ```bash
+    open RegisterList.xcodeproj
+    ```
+3.  **Build and run the app:**
+    * Select your preferred simulator.
+    * Press `Cmd + R` to build and run.
 
 ---
 
-## Preview
+### Preview
 
+<br/>
 <div align="center">
   <img src="https://github.com/user-attachments/assets/e90da072-af2e-40ad-ba7e-86a323467a5c" width="250" />
   <img src="https://github.com/user-attachments/assets/25091644-73f6-40d2-adac-960f21b6ced9" width="250" />
@@ -64,6 +47,6 @@ Press Cmd + R in Xcode
 
 ---
 
-## License
+### License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the **[LICENSE](LICENSE)** file for details.
